@@ -12,12 +12,9 @@ public class Start {
                 "sunday"
     };
         // start from 0 because the array index starts from 0
-        for (int i = 0; i <arr.length ; i++) {
-            if(i%2 ==0){
+        for (int i = 0; i <arr.length ; i+=2) {
                 arr[i] = arr[i].toUpperCase();
-            }
         }
         System.out.println(Arrays.toString(arr));
     }
-
 }
